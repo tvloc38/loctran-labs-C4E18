@@ -1,0 +1,23 @@
+-	Why should we use function at all?
+The first reason is reusability. Once a function is defined, it can be used over and over and over again. You can invoke the same function many times in your program, which saves you work.
+-	 How to define/declare a function?
+def name_fuction(arguments):
+	statements
+-	How to call/use a function?
+name_function(arguments)
+-	What is return, why and how do we use it?
+Return statement is followed an expression. This expression will be evaluated and returned to the caller as the answer of calling this function.
+Because with some functions you need to return values, so you can be used to build more complex expressions.
+def name_function(arguments):
+	statements
+	return values
+-	Do we have to use return in every function?
+No. Because some functions are not executed for its resulting value
+-	What are function arguments/parameters, why and how we use it?
+Inside the function, the values that are passed get assigned to variables called parameters. 	  
+Because most functions require arguments: the arguments provide for generalization.
+max(1, 2, 3, 14, 5)
+>>> 5
+-	How to use function from a different file other than our currently working file?
+from name_file import name_function
+result = name_function(arguments)			
